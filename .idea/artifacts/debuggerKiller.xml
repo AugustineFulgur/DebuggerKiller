@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="debuggerKiller">
+    <output-path>$PROJECT_DIR$/out/artifacts/debuggerKiller</output-path>
+    <root id="archive" name="debuggerKiller.jar">
+      <element id="directory" name="burp">
+        <element id="directory" name="helper">
+          <element id="file-copy" path="$PROJECT_DIR$/build/classes/java/main/burp/helper/ResponseDecoder.class" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/build/classes/java/main/burp/BurpExtender.class" />
+      </element>
+    </root>
+  </artifact>
+</component>
